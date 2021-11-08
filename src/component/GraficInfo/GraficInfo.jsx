@@ -1,12 +1,7 @@
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import { makeStyles } from "@mui/styles";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
-
-const useStyles = makeStyles({
-
-})
 export default function GraficInfo() {
     const data = [
         {
@@ -98,7 +93,6 @@ export default function GraficInfo() {
                 </LineChart>
                 </ResponsiveContainer>
                 </div>
-                
             </Grid>
     )
 }

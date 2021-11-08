@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from "./pages/Home";
 import TambahData from "./pages/TambahData";
+import ListData from "./pages/ListData";
 import Layout from "./component/Layout";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
@@ -17,13 +18,12 @@ const theme = createTheme({
       main: '#3D2C8D'
     },
     text :{
-      primary : "#fff",
-      secondary : '#0000'
+      primary : "#00000",
     },
     background : {
       default: '#1C0C5B'
-    } 
-  }
+    },
+  },
 })
 function App() {
   return (
@@ -39,6 +39,12 @@ function App() {
             <Switch>
               <Route path="/create">
                 <TambahData />
+              </Route>
+            </Switch>
+
+            <Switch>
+              <Route path="/list">
+                <ListData />
               </Route>
             </Switch>
          

@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "userName": "M. Arya",
+      "email": "Syaifullah",
+      "age": 23,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "userName": "M. Arya",
+      "email": "Syaifullah",
+      "age": 23,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "userName": "M. Arya",
+      "email": "Syaifullah",
+      "age": 23,
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "userName": "M. Arya",
+      "email": "Syaifullah",
+      "age": 23,
+      "status": "active"
+    }
+  ]
+}

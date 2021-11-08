@@ -4,9 +4,10 @@ import { makeStyles } from '@mui/styles';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import AddIcon from '@mui/icons-material/Add';
 import { useHistory, useLocation } from 'react-router';
+import ListIcon from '@mui/icons-material/List';
 
 
-const drawerWidth = 240
+const drawerWidth = 220
 const useStyles = makeStyles((theme) =>{
     return {
         drawer: {
@@ -48,6 +49,11 @@ export default function Draw() {
             text: 'Create',
             icon: <AddIcon color="secondary" />,
             path: '/create'
+        },
+         {
+            text: 'List',
+            icon: <ListIcon color="secondary" />,
+            path: '/List'
         },
 
     ]
